@@ -7,12 +7,12 @@
 */
 
 const EventEmitter = (function () {
-    // TODO: implement
+  // TODO: implement
 })();
 
-const Sub1 = EventEmitterSolution.suscribe((msg) => console.log(msg))
-const Sub2 = EventEmitterSolution.suscribe((msg) => console.log(msg))
-const Sub3 = EventEmitterSolution.suscribe((msg) => console.log(msg))
+const Sub1 = EventEmitterSolution.subscribe((msg) => console.log(msg))
+const Sub2 = EventEmitterSolution.subscribe((msg) => console.log(msg))
+const Sub3 = EventEmitterSolution.subscribe((msg) => console.log(msg))
 EventEmitterSolution.emit('Hello!')
 /**
  * Output:
