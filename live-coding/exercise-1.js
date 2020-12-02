@@ -1,5 +1,5 @@
 /*
-  Create an average function with accumalative values.
+  Create an average function with accumulative values.
   For instance:
   averageOf(2) => 2 / 1  = 2;
   averageOf(4) => 2 + 4 / 2 = 6 / 2 = 3;
@@ -8,6 +8,6 @@
 */
 
 function average() {
-    // TODO: implement
+  // TODO: implement
 }
 
