@@ -10,4 +10,3 @@
 function average() {
   // TODO: implement
 }
-
