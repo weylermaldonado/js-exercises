@@ -10,10 +10,10 @@ const EventEmitter = (function () {
   // TODO: implement
 })();
 
-const Sub1 = EventEmitterSolution.subscribe((msg) => console.log(msg))
-const Sub2 = EventEmitterSolution.subscribe((msg) => console.log(msg))
-const Sub3 = EventEmitterSolution.subscribe((msg) => console.log(msg))
-EventEmitterSolution.emit('Hello!')
+const Sub1 = EventEmitter.subscribe((msg) => console.log(msg))
+const Sub2 = EventEmitter.subscribe((msg) => console.log(msg))
+const Sub3 = EventEmitter.subscribe((msg) => console.log(msg))
+EventEmitter.emit('Hello!')
 /**
  * Output:
  * Hello!
@@ -21,7 +21,7 @@ EventEmitterSolution.emit('Hello!')
  * Hello!
  */
 Sub1.unsubscribe()
-EventEmitterSolution.emit('Hello again!')
+EventEmitter.emit('Hello again!')
 /**
  * Output;
  * Hello again!
